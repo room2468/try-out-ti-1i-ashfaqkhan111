@@ -7,6 +7,6 @@
 read -r expression
 
 # Calculate result using bc (supports +, -, *, /)
-# TODO: evaluate $expression using bc command and store in $result variable
+# TODO: evaluate $expression using bc command and store in $result variable.
 
 echo "$expression" | bc
